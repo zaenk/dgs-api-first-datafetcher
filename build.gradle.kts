@@ -32,4 +32,5 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
     useJUnitPlatform()
+    reports.junitXml.isEnabled = true
 }
